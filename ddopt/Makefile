@@ -119,7 +119,7 @@ testcplexdir:
 	@if [ "$(USE_CPLEX)" = "1" -a "$(BASEILOGDIR)" = "" ]; then echo "*** Error: CPLEX directory is not set; modify Makefile"; exit 1; fi
 
 testboostdir:
-	@if [ ! -d "boost" ]; then echo "Unpacking boost library..."; tar -xzf ../boost_deps.tar.gz; fi
+	@if [ ! -d "boost" ]; then echo "Unpacking boost library..."; tar -xzf deps/boost_deps.tar.gz; fi
 
 $(OBJ_DIRS):
 	@mkdir -p $@

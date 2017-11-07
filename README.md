@@ -34,7 +34,7 @@ You should unpack the package in the machine you will run the experiments; howev
 
 The code is in the directory `ddopt`. To compile it, follow these steps:
 
-1. Ensure you have all dependencies: CPLEX 12.6 (other versions may work) and a C++ compiler. Boost is used but it is included in `boost_deps.tar.gz`, which is automatically unpacked by the Makefile. The boost license file is within the package.
+1. Ensure you have all dependencies: CPLEX 12.6 (other versions may work) and a C++ compiler. Boost is used but it is included in `ddopt/deps/boost_deps.tar.gz`, which is automatically unpacked by the Makefile. The boost license file is within the package.
 
 2. Configure the CPLEX path by opening the `Makefile` file and setting the variable `BASEILOGDIR` to the path where CPLEX is installed in your machine.
 
@@ -82,7 +82,7 @@ Other than the code and the scripts included above, we include:
 
     * **Instance generation:** The directory `tests/instances/scripts` includes the Python scripts used to generate instances. The set covering script requires CPLEX and by default also generates .opt files with the optimal value for bandwidth 40 instances. The script `extract_exact_width.sh` runs the program to write exact decision diagram widths to .width files for the files provided as arguments. These .opt (for set covering) and .width files are necessary for tests with the smaller instances.
 
-* **Abridged output files:** The package `abridged_output.tar.gz` in the root directory contains shortened versions of the output files that were used for plotting the graphs in the paper. The full output is not included due to their size (> 2GB). These output files were created by keeping only the lines parsed by the plotting scripts. This means that these files are not very human-readable; however, they can be used with the plotting scripts to generate the plots from the paper.
+* **Abridged output files:** The package `tests/abridged_output.tar.gz` in the root directory contains shortened versions of the output files that were used for plotting the graphs in the paper. The full output is not included due to their size (> 2GB). These output files were created by keeping only the lines parsed by the plotting scripts. This means that these files are not very human-readable; however, they can be used with the plotting scripts to generate the plots from the paper.
 
 * **Affine independence verifier:** The affine independence property of the points provided by flow decomposition is proven in the paper. We use the external Python script `verify_dimension.py` in the `tests` directory to assert that this holds true.
 

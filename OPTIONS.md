@@ -38,7 +38,7 @@ Note: While you need CPLEX to reproduce the results of the paper, the constructi
 Merging and ordering options
 ----------------------------
 
-Several of these merging and ordering rules are inherited from the original code acknowledged in `README.md`.
+Several of these merging and ordering rules are inherited from the original code acknowledged in [README.md](README.md).
 
 ### Independent set
 
@@ -72,7 +72,7 @@ The default and the one used in the paper is 8, minimum degree.
 
 ### Set covering / binary programs
 
-The merging rule options for `-m` for set covering (and binary programs in .mps files in general) are the following:
+The merging rule options for `-m` for set covering (and binary programs in general) are the following:
 
 1. Minimum longest path
 2. Pairwise minimum longest path
@@ -82,7 +82,7 @@ The merging rule options for `-m` for set covering (and binary programs in .mps 
 
 The default and the one used in the paper is 1, minimum longest path.
 
-The variable ordering options for `-o` for set covering (and binary programs in .mps files in general) are the following:
+The variable ordering options for `-o` for set covering (and binary programs in general) are the following:
 
 1. Random
 2. Cuthill-McKee
@@ -106,7 +106,7 @@ Options 1, 2, and 3 are problem-dependent; i.e. they can only be used if we are 
 
 Option 4 is a general option that can be used for any problem. It requires the library GMP to be compiled with the code due to the use of large numbers; the setting `USE_GMP` in the Makefile must be set to 1 and the library must be available in the system.
 
-By default, the independent set case uses option 3 and the binary problem case uses option 4. The set covering experiments switch it to option 2.
+By default, the independent set case uses option 3 and the binary problem case uses option 4. The scripts for set covering use option 2.
 
 
 <!-- 

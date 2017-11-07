@@ -7,7 +7,7 @@ This code generates Figures 4 to 15 from the paper cited in [README.md](README.m
 
 Gap closed for independent set instances of density 80% and 300 vertices (left) and density 50% and 120 vertices (right).
 
-<img src="plots/random_300_80_gapclosed.svg" style="width: 350px;"/> <img src="plots/random_120_50_gapclosed.svg" style="width: 350px;"/>
+<img src="plots/random_300_80_gapclosed.svg" width="350"> <img src="plots/random_120_50_gapclosed.svg" width="350">
 
 *Output files: `random_300_80_gapclosed.pdf`, `random_120_50_gapclosed.pdf`*
 
@@ -15,7 +15,7 @@ Gap closed for independent set instances of density 80% and 300 vertices (left) 
 
 Face dimensions for independent set instances of density 80% and 300 vertices (left) and density 50% and 120 vertices (right).
 
-<img src="plots/random_300_80_dim_width.svg" style="width: 350px;"/> <img src="plots/random_120_50_dim_width.svg" style="width: 350px;"/>
+<img src="plots/random_300_80_dim_width.svg" width="350"> <img src="plots/random_120_50_dim_width.svg" width="350">
 
 *Output files: `random_300_80_dim_width.pdf`, `random_120_50_dim_width.pdf`*
 
@@ -23,7 +23,7 @@ Face dimensions for independent set instances of density 80% and 300 vertices (l
 
 Gap closed (left) and face dimensions (right) for set covering instances of bandwidth 40.
 
-<img src="plots/sc_n250_ss30_bw40_gapclosed.svg" style="width: 350px;"/> <img src="plots/sc_n250_ss30_bw40_dim_width.svg" style="width: 350px;"/>
+<img src="plots/sc_n250_ss30_bw40_gapclosed.svg" width="350"> <img src="plots/sc_n250_ss30_bw40_dim_width.svg" width="350">
 
 *Output files: `sc_n250_ss30_bw40_gapclosed.pdf`, `sc_n250_ss30_bw40_dim_width.pdf`*
 
@@ -31,7 +31,7 @@ Gap closed (left) and face dimensions (right) for set covering instances of band
 
 Solving time (left) and number of nodes of branch-and-bound tree (right) for cuts on independent set instances of density 80% with 400 vertices.
 
-<img src="plots/random_400_80_totaltime.svg" style="width: 350px;"/> <img src="plots/random_400_80_nodes.svg" style="width: 350px;"/>
+<img src="plots/random_400_80_totaltime.svg" width="350"> <img src="plots/random_400_80_nodes.svg" width="350">
 
 *Output files: `random_400_80_totaltime.pdf`, `random_400_80_nodes.pdf`*
 
@@ -39,7 +39,7 @@ Solving time (left) and number of nodes of branch-and-bound tree (right) for cut
 
 Solving time (left) and number of nodes of branch-and-bound tree (right) for cuts on set covering instances of bandwidth 50.
 
-<img src="plots/sc_n250_ss30_bw50_totaltime.svg" style="width: 350px;"/> <img src="plots/sc_n250_ss30_bw50_nodes.svg" style="width: 350px;"/>
+<img src="plots/sc_n250_ss30_bw50_totaltime.svg" width="350"> <img src="plots/sc_n250_ss30_bw50_nodes.svg" width="350">
 
 *Output files: `sc_n250_ss30_bw50_totaltime.pdf`, `sc_n250_ss30_bw50_nodes.pdf`*
 
@@ -47,7 +47,7 @@ Solving time (left) and number of nodes of branch-and-bound tree (right) for cut
 
 Solving time (left) and number of nodes of branch-and-bound tree (right) for cuts on set covering instances of bandwidth 60.
 
-<img src="plots/sc_n250_ss30_bw60_totaltime.svg" style="width: 350px;"/> <img src="plots/sc_n250_ss30_bw60_nodes.svg" style="width: 350px;"/>
+<img src="plots/sc_n250_ss30_bw60_totaltime.svg" width="350"> <img src="plots/sc_n250_ss30_bw60_nodes.svg" width="350">
 
 *Output files: `sc_n250_ss30_bw60_totaltime.pdf`, `sc_n250_ss30_bw60_nodes.pdf`*
 
@@ -55,7 +55,7 @@ Solving time (left) and number of nodes of branch-and-bound tree (right) for cut
 
 Comparison between target cuts and Lagrangian cuts from relaxed decision diagrams on independent set instances of density 80% and 400 vertices.
 
-<img src="plots/random_400_80_totaltime_lr.svg" style="width: 350px;"/> <img src="plots/random_400_80_nodes_lr.svg" style="width: 350px;"/>
+<img src="plots/random_400_80_totaltime_lr.svg" width="350"> <img src="plots/random_400_80_nodes_lr.svg" width="350">
 
 *Output files: `random_400_80_totaltime_lr.pdf`, `random_400_80_nodes_lr.pdf`*
 
@@ -63,7 +63,7 @@ Comparison between target cuts and Lagrangian cuts from relaxed decision diagram
 
 Comparison between target cuts and Lagrangian cuts from relaxed decision diagrams on set covering instances of bandwidth 50.
 
-<img src="plots/sc_n250_ss30_bw50_totaltime_lr.svg" style="width: 350px;"/> <img src="plots/sc_n250_ss30_bw50_nodes_lr.svg" style="width: 350px;"/>
+<img src="plots/sc_n250_ss30_bw50_totaltime_lr.svg" width="350"> <img src="plots/sc_n250_ss30_bw50_nodes_lr.svg" width="350">
 
 *Output files: `sc_n250_ss30_bw50_totaltime_lr.pdf`, `sc_n250_ss30_bw50_nodes_lr.pdf`*
 
@@ -71,7 +71,7 @@ Comparison between target cuts and Lagrangian cuts from relaxed decision diagram
 
 Solving time (left) and number of nodes of branch-and-bound tree (right) for cuts on independent set instances of density 50% with 250 vertices.
 
-<img src="plots/random_250_50_totaltime.svg" style="width: 350px;"/> <img src="plots/random_250_50_nodes.svg" style="width: 350px;"/>
+<img src="plots/random_250_50_totaltime.svg" width="350"> <img src="plots/random_250_50_nodes.svg" width="350">
 
 *Output files: `random_250_50_totaltime.pdf`, `random_250_50_nodes.pdf`*
 
@@ -79,7 +79,7 @@ Solving time (left) and number of nodes of branch-and-bound tree (right) for cut
 
 Solving time (left) and number of nodes of branch-and-bound tree (right) for cuts on set covering instances of bandwidth 40.
 
-<img src="plots/sc_n250_ss30_bw40_totaltime.svg" style="width: 350px;"/> <img src="plots/sc_n250_ss30_bw40_nodes.svg" style="width: 350px;"/>
+<img src="plots/sc_n250_ss30_bw40_totaltime.svg" width="350"> <img src="plots/sc_n250_ss30_bw40_nodes.svg" width="350">
 
 *Output files: `sc_n250_ss30_bw40_totaltime.pdf`, `sc_n250_ss30_bw40_nodes.pdf`*
 
@@ -87,7 +87,7 @@ Solving time (left) and number of nodes of branch-and-bound tree (right) for cut
 
 Total solving time breakdown with a single cut for independent set instances of density 80% with 400 vertices (left) and 50% with 250 vertices (right).
 
-<img src="plots/random_400_80_timebreakdown_1.svg" style="width: 350px;"/> <img src="plots/random_250_50_timebreakdown_1.svg" style="width: 350px;"/>
+<img src="plots/random_400_80_timebreakdown_1.svg" width="350"> <img src="plots/random_250_50_timebreakdown_1.svg" width="350">
 
 *Output files: `random_400_80_timebreakdown_1.pdf`, `random_250_50_timebreakdown_1.pdf`*
 
@@ -95,6 +95,6 @@ Total solving time breakdown with a single cut for independent set instances of 
 
 Face dimensions for independent set instances of density 80% and 300 vertices (left) and density 50% and 120 vertices (right), after applying the perturbation heuristic to increase dimension.
 
-<img src="plots/random_300_80_dim_pert_width.svg" style="width: 350px;"/> <img src="plots/random_120_50_dim_pert_width.svg" style="width: 350px;"/>
+<img src="plots/random_300_80_dim_pert_width.svg" width="350"> <img src="plots/random_120_50_dim_pert_width.svg" width="350">
 
 *Output files: `random_300_80_dim_pert_width.pdf`, `random_120_50_dim_pert_width.pdf`*

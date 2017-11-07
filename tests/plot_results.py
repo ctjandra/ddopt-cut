@@ -4,7 +4,7 @@
 # 3. Plot graphs of the results
 # Running this script remotely (i.e. not on the machine containing the output files) requires the paramiko module.
 
-# Warning: The bash commands must be tested before use; there is no error detection for them.
+# Warning: If new bash commands are added, they must be tested before use; there is no error detection for them.
 
 ################################################################################################
 
@@ -26,7 +26,7 @@ plotters = {
 	'setcover_dim' : PlotterSetCoverDimensions(),
 
 	'indepset_tn'  : PlotterIndepSetTimeNodes(),
-	# 'indepset_lr'  : PlotterIndepSetLagrangian(),
+	'indepset_lr'  : PlotterIndepSetLagrangian(),
 	'indepset_gap' : PlotterIndepSetGap(),
 	'indepset_dim' : PlotterIndepSetDimensions(),
 	'indepset_bd'  : PlotterIndepSetTimeBreakdown(),

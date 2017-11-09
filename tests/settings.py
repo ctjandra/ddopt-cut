@@ -49,7 +49,7 @@ FIELDS = {
 		+ '    echo "(${rootbd} - ${cutbd}) / (${rootbd} - ${obj})" | bc -l;'
 		+ 'done;`;'
 		+ 'echo ${gaps}',
-		lambda s: extend_list_by_repeating_last(map(float, list(s.split())), 30), False), # hardcoded for 30 cuts
+		lambda s: extend_list_by_repeating_last(map(float, list(s.split()[:30])), 30), False), # hardcoded for 30 cuts
 
 	# Gap closed with external optimal value file due to time limit
 	'allgapclosed_optfile': ('rootbd=`grep "      0     0" ${f} | head -n 1 | awk "{print \\\\$3}"`;'
